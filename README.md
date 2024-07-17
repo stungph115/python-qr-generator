@@ -29,32 +29,22 @@ A simple QR code generator made with Python. This application allows you to gene
 
 Install the necessary packages using pip:
 
-\`\`\`bash
+```
 pip install qrcode[pil] Pillow requests
-\`\`\`
+```
 
 ### Running the Application
 
-Clone this repository and navigate to the project directory:
-
-\`\`\`bash
-git clone https://github.com/your-username/python-qr-generator.git
-cd python-qr-generator
-\`\`\`
-
-Run the application:
-
-\`\`\`bash
+```
 python qr-gen.py
-\`\`\`
-
+```
 ## Rendering Executable
 
 To create an executable file, use PyInstaller:
 
-\`\`\`bash
+```
 pyinstaller --name app-name --onefile --noconsole qr-gen.py
-\`\`\`
+```
 
 This command will generate a standalone executable in the `dist` directory.
 
